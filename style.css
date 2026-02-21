@@ -1,0 +1,56 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-section .hero-p1 {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 63px;
+  font-family: unset;
+}
+
+.hero-section .hero-p2 {
+  font-size: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.hero-section .hero-p3 {
+  font-size: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.div2 input {
+  padding: 17px;
+  width: 350px;
+}
+
+.div2 button {
+  padding: 17px;
+  color: white;
+  background-color: red;
+}
+
+.div2 button:hover {
+  background-color: rgb(131, 44, 44);
+}
