@@ -2,24 +2,64 @@
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.hero {
+  background: url(https://assets.nflxext.com/ffe/siteui/vlv3/37372b0c-16ef-4614-9c66-f0464ffe4136/web/IN-en-20260216-TRIFECTA-perspective_74aa38a5-f527-417e-a604-a039567a350b_large.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  width: 100%;
+  height: 100%;
 }
 
 header {
   display: flex;
   justify-content: space-between;
+  padding: 17px 10vw;
+}
+
+.bt a {
+  background-color: red;
+  text-decoration: none;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 5px;
+}
+
+.bt select {
+  padding: 6px 19px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  border: none;
+}
+
+
+
+.bt a:hover {
+  background-color: rgb(188, 32, 32);
+}
+
+.svg-logo {
+  width: 150px;
+  color:;
 }
 
 .hero-section .hero-p1 {
+  font-weight: 600;
   margin-top: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 63px;
+  font-size: 60px;
   font-family: unset;
 }
 
 .hero-section .hero-p2 {
-  font-size: 23px;
+  font-size: 21px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -27,7 +67,7 @@ header {
 }
 
 .hero-section .hero-p3 {
-  font-size: 19px;
+  padding-top: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -37,20 +77,30 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 15px;
+  gap: 10px;
+  padding-top: 17px;
+  padding-bottom: 300px;
 }
 
 .div2 input {
   padding: 17px;
   width: 350px;
+  border-radius: 5px;
 }
 
 .div2 button {
-  padding: 17px;
+  padding: 14px;
   color: white;
   background-color: red;
+  border: none;
+  border-radius: 5px;
+  font-size: 23px;
+}
+
+.div2 button i {
+  font-size: 14px;
 }
 
 .div2 button:hover {
-  background-color: rgb(131, 44, 44);
+  background-color: rgb(188, 32, 32);
 }
